@@ -1,18 +1,20 @@
 body {
 	font-family: "Helvetica Neue","STHeiti","Microsoft YaHei",Helvetica,Arial,sans-serif;
+	background: #fbfbfb;
 }
 
+.container {
+	margin-top: 10px;
+}
 .tb-title {
 	background: #e1f0f7;
 	font-weight: bold;
 	height: 35px;
 	line-height: 35px;
 }
-.container {
-	border: 1px solid #ebe7e8;
-}
 .row {
 	border: 1px solid #d7e4ea;
+	border-left: none;
 	margin-bottom: 10px;
 }
 .col-xs-1, 
@@ -27,5 +29,19 @@ body {
 .col-xs-7, 
 .col-xs-8, 
 .col-xs-9 {
-	border: 1px solid #d7e4ea;
+	border-top: 1px solid #d7e4ea;
+	border-left: 1px solid #d7e4ea;
+}
+.row p {
+	margin-top: 10px;
+}
+.row span {
+	color: #008000;
+}
+.myPic img {
+	display: block;
+	margin: 0 auto;
+}
+.mgb17 {
+	margin-bottom: 17px;
 }
