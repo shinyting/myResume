@@ -1,0 +1,16 @@
+{
+  "name": "434",
+  "description": "jquery tree plugin to create Table of content,and render with ztree(another jq plugin)",
+  "version": "0.4.1",
+  "homepage": "http://www.no320.com/",
+  "license": "MIT",
+  "copyright": "alfred sang",
+  "main": "src/ztree_toc.js",
+  "dependencies": {
+    "zepto": "~1.1.6"
+  },
+  "ignore": [
+    "build",
+    "demo"
+  ]
+}
